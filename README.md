@@ -1,5 +1,8 @@
-# TDH
-TRANSFORMER-BASED DEEP HASHING METHOD FOR MULTI-SCALE FEATURE
+# TRANSFORMER-BASED DEEP HASHING METHOD FOR MULTI-SCALE FEATURE（TDH）
+Acknowledgments
+The code in this paper is based on the existing code by [Ross Whitman](https://github.com/rwightman/pytorch-image-models/tree/main) and [swuxyj](https://github.com/swuxyj/DeepHash-pytorch).
+------
+Method
 -----
 ![TDH](https://user-images.githubusercontent.com/49743419/220228569-dcd3c9d5-33e9-49de-bec0-fcfb17b8e5d2.png)
 We also provide performance and efficiency comparisons with different backbone networks,Table 1 presents the performance results of the
@@ -8,3 +11,6 @@ ResNet101 backbone network and TDH-V-L-16 indicates the use of the ViT-L_16 back
 network. Table 2 demonstrates the number of parameters and the computational effort of the
 model under different backbone networks.
 ![new](https://user-images.githubusercontent.com/49743419/220231454-b6e2bdf1-1b52-4293-b28f-d6329926c6cc.png)
+Datasets
+-----
+To download the dataset, please visit the [swuxyj](https://github.com/swuxyj/DeepHash-pytorch).
