@@ -106,7 +106,7 @@ def cifar_dataset(config):
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
-    cifar_dataset_root = '/data02/WeiHongxi/Node95/hechao/dataset/'
+    cifar_dataset_root = '../dataset/'
     # Dataset
     train_dataset = MyCIFAR10(root=cifar_dataset_root,
                               train=True,
