@@ -1,6 +1,6 @@
 # TRANSFORMER-BASED DEEP HASHING METHOD FOR MULTI-SCALE FEATURE（TDH）
 
-The code used in this paper references existing code from [Ross Wightman](https://github.com/rwightman/pytorch-image-models/tree/main) and [swuxyj](https://github.com/swuxyj/DeepHash-pytorch).
+The code used in this paper references existing code from [huggingface](https://github.com/huggingface/pytorch-image-models) and [swuxyj](https://github.com/swuxyj/DeepHash-pytorch).
 
 Method
 -----
