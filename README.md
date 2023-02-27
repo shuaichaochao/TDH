@@ -17,7 +17,9 @@ model under different backbone networks.Table 3 illustrates the architecture det
 
 Training
 -----
-All parameters are defined in the a-file, and the test methods are integrated into the a-file.
+All parameters are defined in the TDH_train.py file, and the test methods are integrated into the TDH_train.py file.Therefore, it is only necessary to run
+
+python TDH_train.py
 
 Datasets
 -----
