@@ -1,4 +1,4 @@
-# TRANSFORMER-BASED DEEP HASHING METHOD FOR MULTI-SCALE FEATURE（TDH）
+# TRANSFORMER-BASED DEEP HASHING METHOD FOR MULTI-SCALE FEATURE（TDH）(ICASSP 2023)
 
 The code used in this paper references existing code from [huggingface](https://github.com/huggingface/pytorch-image-models) and [swuxyj](https://github.com/swuxyj/DeepHash-pytorch).
 
@@ -14,6 +14,10 @@ model under different backbone networks.Table 3 illustrates the architecture det
 
 ![new](https://user-images.githubusercontent.com/49743419/220231454-b6e2bdf1-1b52-4293-b28f-d6329926c6cc.png)
 ![捕获](https://user-images.githubusercontent.com/49743419/221077773-7e4b9e5f-233f-4dcf-a600-133bdb97bee4.png)
+
+Training
+-----
+All parameters are defined in the a-file, and the test methods are integrated into the a-file.
 
 Datasets
 -----
