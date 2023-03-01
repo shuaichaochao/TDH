@@ -107,7 +107,7 @@ def train_val(config, bit):
     # apex加速训练
     # help="For fp16: Apex AMP optimization level selected in ['O0', 'O1', 'O2', and 'O3'].
     # See details at https://nvidia.github.io/apex/amp.html"
-    model, optimizer = amp.initialize(models=net,
+    net, optimizer = amp.initialize(models=net,
                                       optimizers=optimizer,
                                       opt_level='O1')
     amp._amp_state.loss_scalers[0]._loss_scale = 2 ** 20
