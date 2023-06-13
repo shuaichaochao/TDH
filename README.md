@@ -2,6 +2,9 @@
 
 The code used in this paper references existing code from [huggingface](https://github.com/huggingface/pytorch-image-models) and [swuxyj](https://github.com/swuxyj/DeepHash-pytorch).
 
+Paper Link
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10094794
+
 Method
 -----
 ![TDH](https://user-images.githubusercontent.com/49743419/220228569-dcd3c9d5-33e9-49de-bec0-fcfb17b8e5d2.png)
